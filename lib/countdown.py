@@ -5,13 +5,13 @@ def countdown(number):
         print(f'{number} SECOND(S)!')
         number -= 1
     print('HAPPY NEW YEAR!')
-countdown(10)
+countdown(5)
 
 def countdown_with_sleep(number):
     while number > 0:
-        print(f'{number} SECOND(S)')
+        print(f'{number} SECOND(S)!')
         time.sleep(1)
         number -= 1
     print('HAPPY NEW YEAR!')
-countdown_with_sleep(10)
+countdown_with_sleep(5)
 
